@@ -1,16 +1,15 @@
 import ReactPlayer from "react-player";
 
 interface PlayerProps {
-  playerId: string;
   url?: MediaStream;
   muted: boolean;
   playing: boolean;
 }
 
-const Player: React.FC<PlayerProps> = ({ playerId, url, muted, playing }) => {
+const Player: React.FC<PlayerProps> = ({ url, muted, playing }) => {
   return (
     <div>
-      <ReactPlayer key={playerId} url={url} muted={muted} playing={playing} />
+      <ReactPlayer url={url} muted={muted} playing={playing} />
     </div>
   );
 };
