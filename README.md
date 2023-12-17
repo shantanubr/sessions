@@ -15,7 +15,7 @@ pnpm dev
 bun dev
 ```
 
-Then run PeerServer:
+Then run PeerServer on a different terminal:
 
 ```bash
 peerjs --port 3001
