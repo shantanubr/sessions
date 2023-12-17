@@ -1,5 +1,5 @@
 ## Sessions: A Video Conferencing Web Application
-Sessions is a video conferencing web application that is based on mesh topology style P2P connections between all the users (Not very optimal)
+Sessions is a video conferencing web application that is based on mesh topology style P2P connections between all the users (Not very optimal). More features coming soon.
 
 ## Getting Started
 
